@@ -17,4 +17,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-世界をおおきなしゃめにする人類です。
+世界をおおきなしゃめにする人類です。    
