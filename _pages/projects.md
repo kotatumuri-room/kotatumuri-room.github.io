@@ -1,9 +1,9 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: "プロになりたい時ってあるよね".
-nav: true
+title: seminar
+permalink: /seminar/
+description: "自主ゼミ".
+nav: false
 nav_order: 2
 display_categories: [work, fun]
 horizontal: false
