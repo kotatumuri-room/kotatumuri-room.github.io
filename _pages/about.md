@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: こたつむりのうえぶさいと
-
+subtitle: こたつむりのウェブサイト
 profile:
   align: right
   image: home.png
