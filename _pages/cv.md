@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 1
-cv_pdf: cv.pdf
-description: 
-toc:
-  sidebar: left
+# cv_pdf: example_pdf.pdf
+# description: "ＣＶのぺージ"
+# toc:
+#   sidebar: left
 ---
