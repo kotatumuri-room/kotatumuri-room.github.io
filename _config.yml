@@ -277,7 +277,7 @@ scholar:
   first_name: [Kotaro]
 
   style: apa
-  locale: jp
+  locale: ja
 
   source: /_bibliography/
   bibliography: papers.bib
