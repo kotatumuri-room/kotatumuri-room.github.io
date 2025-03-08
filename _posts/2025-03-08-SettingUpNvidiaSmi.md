@@ -1,11 +1,11 @@
 ---
 layout: post
-title: SettingUpNvidiaSmi
+title: "Ubuntuのアップデート後にnvidia-driverが認識しなくなったときの対処法"
 date: 2025-03-08
 description: "Ubuntu updateをするとなんかnvidia-smiが叩けなくなったときの備忘録"
 tags: ubuntu cuda pc-setup
 categories: pc-info
-giscus_comments: false
+giscus_comments: true
 related_posts: false
 ---
 # 状況
