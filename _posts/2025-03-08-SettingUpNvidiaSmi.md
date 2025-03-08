@@ -5,7 +5,7 @@ date: 2025-03-08
 description: "Ubuntu updateをするとなんかnvidia-smiが叩けなくなったときの備忘録"
 tags: ubuntu cuda pc-setup
 categories: pc-info
-giscus_comments: true
+giscus_comments: false
 related_posts: false
 ---
 # 状況

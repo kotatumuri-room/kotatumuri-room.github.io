@@ -5,7 +5,7 @@ date: 2023-12-3
 description: "世界にこんにちは"
 tags: helloworld
 categories: test
-giscus_comments: true
+giscus_comments: false
 related_posts: false
 ---
 
