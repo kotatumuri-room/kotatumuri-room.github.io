@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-// --- アイコンライブラリをインポート ---
 import { FaUniversity, FaBook, FaMicrophoneAlt, FaBriefcase, FaEnvelope, FaGithub, FaTwitter } from 'react-icons/fa';
 import { SiGooglescholar } from "react-icons/si";
 import { FiExternalLink } from 'react-icons/fi';
@@ -20,7 +19,7 @@ function App() {
             Download CV (PDF)
           </a>
           <div className="contact-section section">
-            <h3><FaEnvelope /> Contact</h3> {/* アイコン追加 */}
+            <h3><FaEnvelope /> Contact</h3> 
             <div className="contact-info">
               <p>E-mail: <a href="mailto:kotatumuri114@icloud.com">kotatumuri114[at]icloud.com</a></p>
             </div>
@@ -28,7 +27,6 @@ function App() {
           <div className="links-section section">
             <h3>Links</h3>
             <ul className="links-list">
-              {/* 各リンクにブランドアイコンを追加 */}
               <li><a href="https://github.com/kotatumuri-room" target="_blank" rel="noopener noreferrer"><FaGithub /> GitHub</a></li>
               <li><a href="https://twitter.com/kotaro_IK" target="_blank" rel="noopener noreferrer"><FaTwitter /> X (Twitter)</a></li>
               <li><a href="https://scholar.google.com/citations?user=BLznLMkAAAAJ&hl" target="_blank" rel="noopener noreferrer"><SiGooglescholar /> Google Scholar</a></li>
@@ -39,13 +37,13 @@ function App() {
         {/* --- 右カラム --- */}
         <div className="right-column">
           <section id="affiliation" className="section">
-            <h2><FaUniversity /> Affiliation</h2> {/* アイコン追加 */}
+            <h2><FaUniversity /> Affiliation</h2> 
             <ul className="text-list">
               <li><strong>2022 - present</strong> The University of Tokyo, Department of Mathematical Engineering and Information Physics, School of Engineering</li>
             </ul>
           </section>
           <section id="publications" className="section">
-            <h2><FaBook /> Publications</h2> {/* アイコン追加 */}
+            <h2><FaBook /> Publications</h2> 
             <ul>
               <li className="publication-item">
                 <a href="https://example.com/publication1" target="_blank" rel="noopener noreferrer">Speed-accuracy relations for diffusion models: Wisdom from nonequilibrium thermodynamics and optimal transport<FiExternalLink /></a>
@@ -64,7 +62,7 @@ function App() {
             </ul>
           </section>
           <section id="conferences-in-japan" className="section">
-            <h2><FaMicrophoneAlt /> Conferences in Japan</h2> {/* アイコン追加 */}
+            <h2><FaMicrophoneAlt /> Conferences in Japan</h2> 
             <ul>
               <li className="publication-item">
                 <a href="https://example.com/conference1" target="_blank" rel="noopener noreferrer">Speed-accuracy relations for diffusion models: Wisdom from nonequilibrium thermodynamics and optimal transport<FiExternalLink /></a>
