@@ -15,7 +15,7 @@ function App() {
           </div>
           <h1 className="profile-name">Kotaro Ikeda<br/>(池田滉太郎)</h1>
           <p className="profile-title">The University of Tokyo / undergraduate student (B4)</p>
-          <a href="/CV.pdf" download="CV_Kotaro_Ikeda.pdf" className="cv-download-button-left">
+          <a href={process.env.PUBLIC_URL + '/CV.pdf'} download="CV_Kotaro_Ikeda.pdf" className="cv-download-button-left">
             Download CV (PDF)
           </a>
           <div className="contact-section section">
