@@ -46,7 +46,7 @@ function App() {
             <h2><FaBook /> Publications</h2> 
             <ul>
               <li className="publication-item">
-                <a href="https://example.com/publication1" target="_blank" rel="noopener noreferrer">Speed-accuracy relations for diffusion models: Wisdom from nonequilibrium thermodynamics and optimal transport<FiExternalLink /></a>
+                <a href="https://doi.org/10.1103/x5vj-8jq9" target="_blank" rel="noopener noreferrer">Speed-accuracy relations for diffusion models: Wisdom from nonequilibrium thermodynamics and optimal transport<FiExternalLink /></a>
                 <span className="authors">Kotaro Ikeda, Tomoya Uda, Daisuke Okanohara, Sosuke Ito</span>
                 <span className="conference">Physical Review X 15, 031031 (2025)</span>
                 <div className="extra-links">
@@ -55,7 +55,7 @@ function App() {
                 </div>
               </li>
               <li className="publication-item">
-                <a href="https://example.com/publication2" target="_blank" rel="noopener noreferrer">Pairwise Optimal Transports for Training All-to-All Flow-Based Condition Transfer Model<FiExternalLink /></a>
+                <a href="https://arxiv.org/abs/2504.03188" target="_blank" rel="noopener noreferrer">Pairwise Optimal Transports for Training All-to-All Flow-Based Condition Transfer Model<FiExternalLink /></a>
                 <span className="authors">Kotaro Ikeda, Masanori Koyama, Jinzhe Zhang, Kohei Hayashi, Kenji Fukumizu</span>
                 <span className="conference">NeurIPS 2025 </span>
               </li>
@@ -65,12 +65,12 @@ function App() {
             <h2><FaMicrophoneAlt /> Conferences in Japan</h2> 
             <ul>
               <li className="publication-item">
-                <a href="https://example.com/conference1" target="_blank" rel="noopener noreferrer">Speed-accuracy relations for diffusion models: Wisdom from nonequilibrium thermodynamics and optimal transport<FiExternalLink /></a>
+                <a href="https://ibisml.org/ibis2024/posters/" target="_blank" rel="noopener noreferrer">Speed-accuracy relations for diffusion models: Wisdom from nonequilibrium thermodynamics and optimal transport<FiExternalLink /></a>
                 <span className="authors">Kotaro Ikeda, Tomoya Uda, Daisuke Okanohara, Sosuke Ito</span>
                 <span className="conference">The 27th Information-Based Induction Sciences Workshop (IBIS 2024)</span>
               </li>
               <li className="publication-item">
-                <a href="https://example.com/conference2" target="_blank" rel="noopener noreferrer">GeoBeta Flow Matching<FiExternalLink /></a>
+                <a href="https://ibisml.org/ibis2024/posters/" target="_blank" rel="noopener noreferrer">GeoBeta Flow Matching<FiExternalLink /></a>
                 <span className="authors">Kotaro Ikeda, Masanori Koyama, Kohei Hayashi, Kenji Fukumizu</span>
                 <span className="conference">The 27th Information-Based Induction Sciences Workshop (IBIS 2024)</span>
               </li>
