@@ -4,14 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
-  <meta http-equiv="refresh" content="0; url=https://blokus-demo.purplefield-a8725e84.eastus.azurecontainerapps.io/">
+  <meta http-equiv="refresh" content="1; url=https://blokus-demo.purplefield-a8725e84.eastus.azurecontainerapps.io/">
   <link rel="canonical" href="https://blokus-demo.purplefield-a8725e84.eastus.azurecontainerapps.io/">
   <title>Redirecting to Blokus Demo</title>
   <script>
-    window.location.replace("https://blokus-demo.purplefield-a8725e84.eastus.azurecontainerapps.io/" + window.location.search + window.location.hash);
+    (function () {
+      var target = new URL("https://blokus-demo.purplefield-a8725e84.eastus.azurecontainerapps.io/");
+      target.search = window.location.search;
+      target.hash = window.location.hash;
+      window.location.href = target.toString();
+    })();
   </script>
 </head>
 <body>
-  <p>Redirecting to <a href="https://blokus-demo.purplefield-a8725e84.eastus.azurecontainerapps.io/">Blokus Demo</a>...</p>
+  <p>
+    Redirecting to
+    <a href="https://blokus-demo.purplefield-a8725e84.eastus.azurecontainerapps.io/">Blokus Demo</a>.
+  </p>
 </body>
 </html>
